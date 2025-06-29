@@ -45,6 +45,8 @@ The processor is built from the following main building blocks:
 *For a visual schematic, refer to the project documentation.*
 
 ## Directory Layout
+
+```
 project-root/
 │
 ├── .gitignore
@@ -63,7 +65,7 @@ project-root/
 └── testbench/
 └── mips_processor_tb.v
 ├── Project Report.pdf
-
+```
 - **code/**: Synthesizable Verilog modules (main CPU logic)
 - **testbench/**: Testbenches and simulation files
 
@@ -116,11 +118,6 @@ A comprehensive report is available in the repository, covering:
 - Datapath diagrams and architectural details
 - Module-wise implementation notes
 - Simulation methodology and results
-
-**Ready to experiment?**  
-Clone, simulate, and explore the design to deepen your understanding of CPU internals!
-
-*This project was developed as part of an academic course. For questions or contributions, feel free to open an issue or pull request.*
 
 
 
