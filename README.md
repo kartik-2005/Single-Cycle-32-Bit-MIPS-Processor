@@ -80,13 +80,13 @@ project-root/
 
 1. **Clone the repository:**
     ```
-    git clone <your-repo-url>
-    cd <project-root>
+    git clone https://github.com/kartik-2005/Single-Cycle-32-Bit-MIPS-Processor.git
+    cd Single-Cycle-32-Bit-MIPS-Processor.git
     ```
 
 2. **Compile the design and testbench:**
     ```
-    iverilog -o mips_sim sim/mips_processor_tb.v rtl/*.v
+    iverilog -o mips_sim testbench/mips_processor_tb.v code/*.v
     ```
 
 3. **Simulate:**
